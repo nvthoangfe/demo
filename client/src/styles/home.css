@@ -1,0 +1,295 @@
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+.background-image {
+  width: 100%;
+  height: auto;
+  /* z-index: -1; */
+  padding-bottom: 100px;
+  /* position: sticky; */
+  display: flex;
+  justify-content: center;
+  background-image: url("https://dongphuckhanhlinh.com/pic/news/images/hinh-anh-spa-dep%20(238).jpg");
+  background-repeat: no-repeat;
+  z-index: 1;
+  background-size: cover;
+}
+.section1 {
+  display: block;
+  z-index: 1;
+}
+
+.section2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.text-img {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.text-1 {
+  /* font-family: "Work Sans", sans-serif; */
+  font-weight: 500;
+  font-size: 16px;
+  color: #c0b7af;
+  margin-bottom: 40px;
+}
+
+.text-title {
+  /* font-family: "Work Sans", sans-serif; */
+  letter-spacing: -0.01em;
+  color: #405861;
+  font-size: 50px;
+  line-height: 1.05em;
+  /* font-weight: inherit; */
+  margin: 15px 0;
+  margin-bottom: 20px;
+}
+
+.text-2 {
+  /* font-family: "Work Sans", sans-serif; */
+  /* font-weight: 500; */
+  font-size: 23px;
+  color: #7a7a7a;
+}
+
+.text-3 {
+  font-size: 23px;
+  color: #7a7a7a;
+}
+
+.container-item {
+  width: 100%;
+  height: 100%;
+}
+.slider {
+  z-index: -1;
+  display: flex;
+  -webkit-box-pack: end !important;
+  -ms-flex-pack: end !important;
+  justify-content: flex-end;
+}
+
+/*  about */
+
+.about-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.div-image {
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+  width: 50%;
+  height: 100%;
+}
+.image-about {
+  width: 540px;
+  height: 500px;
+  object-fit: cover;
+}
+.text-about {
+  width: 50%;
+  height: 100%;
+}
+.text-about-mb {
+  width: 70%;
+  padding: 48px 15px 48px 48px;
+}
+.h2-about {
+  opacity: 0.7;
+  font-size: 40px;
+  font-family: var(--family-header);
+}
+.text-about-mb p {
+  color: #666666;
+}
+
+span {
+  font-size: 20px;
+}
+/* video  */
+.video {
+  width: 100%;
+  height: 300px;
+}
+
+/* pricing */
+.pricing-container {
+  direction: column;
+
+  padding-top: 50px;
+  padding-bottom: 100px;
+  text-align: center;
+  /* background-color: #dbdada; */
+}
+
+.subheading {
+  color: var(--color-title);
+}
+
+.sub .pricing-item {
+  height: auto;
+  width: 100%;
+  padding-bottom: 40px;
+  display: flex;
+}
+
+/* section 3 */
+.section-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 80px;
+}
+
+.section-3-img {
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+  width: 800px;
+  height: 420px;
+  object-fit: cover;
+  margin-right: 100px;
+
+  border-radius: 2px;
+}
+
+.section-3-img img {
+  width: 540px;
+  height: 500px;
+}
+
+.section-3-text {
+  font-size: 23px;
+  color: #7a7a7a;
+}
+
+/* sectione 4 */
+.section-4 {
+  display: block;
+  z-index: 0;
+}
+
+/* section 4 */
+.section-4 {
+  padding: 120px 60px;
+}
+
+.service-container {
+  display: flex;
+  width: 100%;
+  height: 450px;
+  position: relative;
+}
+
+/* section 5 */
+.section-5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 80px;
+  margin-bottom: 100px;
+}
+
+.s5-img {
+  display: flex;
+  justify-content: center;
+  float: right;
+  width: 800px;
+  height: 420px;
+  object-fit: cover;
+  margin-left: 80px;
+
+  border-radius: 2px;
+}
+
+.s5-img img {
+  width: 540px;
+  height: 500px;
+}
+
+.s5-title {
+  letter-spacing: -0.01em;
+  color: #405861;
+  font-size: 50px;
+  line-height: 1.05em;
+  /* font-weight: inherit; */
+  margin: 15px 0;
+  margin-bottom: 20px;
+}
+
+.s5-text {
+  font-size: 23px;
+  color: #7a7a7a;
+
+}
+.s5-btn{
+  margin-top: 20px;
+}
+.booking-btn{
+  background-color: var(--color-button);
+  color: var(--background);
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  width: 200px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: var(--family-font);
+  text-decoration: none;
+}
+/* .list-shop {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.list-shop .shop {
+  height: 300px;
+  border: 1px solid gray;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.list-shop .shop img {
+  height: 200px;
+  width: 250px;
+  object-fit: cover;
+}
+.list-shop .shop .info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-shop .shop .info h2 {
+  color: crimson;
+}
+
+.list-shop .shop .info h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: left;
+}
+
+.list-shop .shop .info p {
+  width: 200px;
+  font-size: 12px;
+  text-align: left;
+} */
+

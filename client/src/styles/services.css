@@ -1,0 +1,37 @@
+.services-container {
+  width: 100%;
+  height: auto;
+  /* background-color: rgb(25, 25, 25, 0.2); */
+}
+.category {
+  height: 100%;
+  height: auto;
+  margin: 0px 30px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  font-family: var(--family-font);
+}
+.title-category {
+  width: auto;
+  height: 40px;
+  display: flex;
+  justify-content: left;
+  padding-left: 40px;
+  border-left: 4px solid var(--color-button);
+  font-family: var(--family-font);
+  color: #405861;
+}
+.div-service {
+  width: 100%;
+  padding: 0px 10%;
+  height: auto;
+  display: flex;
+  gap: 12%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: var(--family-font);
+  color: #7a7a7a;
+}

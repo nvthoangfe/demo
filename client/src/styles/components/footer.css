@@ -1,0 +1,173 @@
+.footer-container {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+img {
+  width: 150px;
+  height: 100px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 20px;
+  font-size: 20;
+}
+.footer-content span {
+  font-size: 24px;
+}
+.footer-last {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  color: white;
+  gap: 20px;
+}
+.last {
+  width: 100%;
+  height: 300px;
+  background-color: black;
+  padding: 20px 0px;
+  justify-content: center;
+  align-items: center;
+}
+.last span {
+  color: var(--background);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Footer {
+  display: flex;
+  width: 100%;
+  height: 250px;
+  justify-content: center;
+  background-color: var(--background-dark);
+  opacity: 0.9;
+  padding-top: 100px;
+}
+.div-footer {
+  width: 255px;
+  height: 96%;
+  padding-left: 10px;
+}
+.title {
+  text-transform: uppercase;
+  color: var(--background);
+  margin: 0px 0px 30px;
+  font-size: 22px;
+  font-family: var(--family-header);
+}
+
+.div-footer p {
+  color: var(--background);
+  opacity: 0.9;
+  font-size: 14px;
+}
+.div-footer span {
+  font-size: 14px;
+}
+.div-icon {
+  width: 100%;
+  height: 40px;
+  display: flex;
+}
+.link-icon {
+  text-decoration: none;
+  color: var(--background);
+  background-color: var(--color-button);
+  height: 30px !important;
+  width: 30px !important;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  padding: 5px;
+  margin-right: 10px;
+}
+.button-icon {
+  width: 30px;
+  height: 30px;
+}
+.link-footer {
+  height: 20px;
+  width: 100%;
+
+  margin-bottom: 15px;
+}
+.link-footer a {
+  text-decoration: none;
+  color: var(--background);
+  font-size: 14px;
+  opacity: 0.9;
+}
+.link-footer span {
+  color: var(--background);
+  font-size: 16px;
+}
+.link-footer button {
+  border: 2px solid var(--color-button);
+  background-color: transparent;
+  color: var(--color-button);
+  width: 100%;
+  padding: 10px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-family: var(--family-header);
+}
+.link-footer button span {
+  font-family: var(--family-header);
+  color: var(--color-button);
+  margin-right: 10px;
+}
+.question {
+  display: flex;
+  color: var(--background);
+  font-size: 13px;
+  width: 100%;
+  padding-bottom: 20px;
+}
+.question span {
+  margin-right: 5px;
+  font-size: 16px;
+  font-family: var(--family-header);
+}
+
+@media screen and (max-width: 768px) {
+  .div-footer {
+    max-width: 25%;
+  }
+  .title {
+    font-size: 18px;
+  }
+  .div-footer p,
+  .div-footer a,
+  .div-footer .question .text-span,
+  .last span {
+    font-size: 13px;
+    font-family: var(--family-header);
+  }
+  .div-footer .question .text-span2 {
+    font-size: 10px;
+    font-family: var(--family-header);
+  }
+}
